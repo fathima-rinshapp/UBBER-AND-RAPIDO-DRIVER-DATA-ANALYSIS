@@ -19,9 +19,11 @@ Raw data had quality issues, cleaned before importing to Power BI.
       - Rejection Reason: 40% was UNKNOWN - flagged as Needs Review
 4. **Data Type Fix:** Converted Communication Score, Driving Score, Customer Handling Score from Text to Number using Text to Columns. This fixed the blank visual issue.
 5. **Null Handling:** Document Score blanks replaced with 0 and marked as Failed. Background Check Pending kept for tracking.
-6. **Outlier Check:** Age 38 had abnormal high scores - flagged. Rating >5 corrected to 5.
+6. **Outlier Check:** Age 37 had abnormal high scores - flagged. Rating >5 corrected to 5.
 
-**Output:** `driver_data_cleaned.xlsx` - Final clean file imported to Power BI.
+**Output:** `UBER DRIVER DATA CLEANED.xlsx`
+https://drive.google.com/drive/folders/1xj6f0WECKtdM7-LkbRWQfJg3DftM7ux5?usp=sharing
+Final clean file imported to Power BI.
 
 ### Phase 2: Data Visualization using Power BI
 
@@ -80,9 +82,9 @@ Raw data had quality issues, cleaned before importing to Power BI.
 - **DAX:** COUNT, AVERAGE, CALCULATE, DIVIDE
 
 ## Files in Repository
-- `Uber_Rapido_Driver_Dashboard.pbix` - Power BI File
-- `driver_data_cleaned.xlsx` - Cleaned Data
-- `driver_data_raw.xlsx` - Raw Data
+- `UBER AND RAPIDO DRIVER DATA.pbix` - Power BI File
+- `UBER DRIVER DATA CLEANED.xlsx` - Cleaned Data
+- `uber_rapido_driver_dirty.csv` - Raw Data
 - `/images` - Dashboard Screenshots
 
 ## How to Run
@@ -91,7 +93,7 @@ Raw data had quality issues, cleaned before importing to Power BI.
 3. Explore dashboards with slicers
 
 ## Author
-**Aspiring Data Analyst | Excel | Power BI | SQL**
+**Aspiring Data Analyst | Excel | Power BI **
 
 ---
 ⭐ Star this repository if you found it useful!
